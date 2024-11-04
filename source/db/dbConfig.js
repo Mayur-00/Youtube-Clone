@@ -7,7 +7,6 @@ dotenv.config();
 const connectDB = async function(){
 
     try {
-        console.log(process.env.DB_URI);
         
         const connectionInstance= await mongoose.connect(`${process.env.DB_URI}/ytClone`)
 

@@ -1,5 +1,4 @@
 
-import mongoose from "mongoose";
 import connectDB from "./db/dbConfig.js";
 import { app } from "./app.js";
 import dotenv from 'dotenv';
